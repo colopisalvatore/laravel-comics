@@ -1,0 +1,199 @@
+@import '~bootstrap/scss/bootstrap';
+
+header {
+    .header_top {
+        background-color: #0282F9;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    img {
+        width: 80px;
+        aspect-ratio: 1/1;
+        margin-left: 1rem;
+    }
+
+    .link_box {
+
+        border-bottom: 2px solid white;
+        padding: 2rem 0;
+
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 1rem;
+
+
+            &:hover {
+                border-bottom: 5px solid #0282F9;
+                padding-bottom: 2rem;
+            }
+        }
+
+    }
+
+    .search {
+        width: 100px;
+        border-bottom: 2px solid #0282F9;
+        text-align: end;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    .comics_jumbotron {
+        background-image: url(../img/jumbotron.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+    }
+
+    .active {
+        color: #0282F9;
+        border-bottom: 5px solid #0282F9;
+        padding-bottom: 2rem;
+    }
+}
+
+main {
+    background-color: black;
+
+    .cards {
+        position: relative;
+    }
+
+    .comic_card {
+
+        img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: 1rem;
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .tag {
+        position: absolute;
+        top: -15px;
+
+
+        span {
+            background-color: #0282F9;
+            padding: 0.5rem 1rem;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    span {
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    .load_more {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        background-color: #0282F9;
+        padding: 0.5rem 3rem;
+        border-radius: 0;
+    }
+
+    .load_more:hover {
+        background-color: #0282F9;
+    }
+}
+
+.blue_bar {
+    background-color: #0282F9;
+    padding: 2rem 0;
+
+    .container {
+        max-width: 1000px;
+
+        .col {
+            img {
+                max-height: 50px;
+                margin-right: 1rem;
+
+                span {
+                    font-size: 12px;
+
+                }
+            }
+        }
+    }
+}
+
+footer {
+
+
+    .upper_footer {
+        background-image: url(../img/footer-bg.jpg);
+
+        .logo_layer_footer {
+            background-image: url('../img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: right;
+
+        }
+    }
+
+    span {
+        font-weight: bold;
+        color: white;
+        align-self: center;
+    }
+
+    h5 {
+        color: white;
+        text-transform: uppercase;
+        margin-top: auto;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        a {
+            text-decoration: none;
+            color: grey;
+            font-weight: 400;
+        }
+    }
+
+    .bottom_footer {
+        background-color: rgb(61, 61, 61);
+
+        padding: 2rem;
+
+        .btn {
+            border: 2px solid #0282F9;
+            border-radius: 0%;
+            color: white;
+            background-color: none;
+            margin-left: 2rem;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            color: #0282F9;
+        }
+    }
+
+    img {
+        padding-left: 1rem;
+    }
+}
